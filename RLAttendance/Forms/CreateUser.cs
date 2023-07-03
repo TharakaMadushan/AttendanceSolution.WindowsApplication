@@ -95,6 +95,12 @@ namespace AttendanceSolution.Forms
                     using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
                     {
                         var result = streamReader.ReadToEnd();
+                        if (result != null)
+                        {
+                            this.Hide();
+                            LoginForm login = new LoginForm();
+                            login.Show();
+                        }
                     }
                 }
                 
