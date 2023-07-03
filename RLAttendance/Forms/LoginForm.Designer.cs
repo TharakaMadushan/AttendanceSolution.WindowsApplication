@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
-            DevExpress.XtraSplashScreen.SplashScreenManager splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::RLAttendance.SplashScreen), false, false);
             this.lblIndicate = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.lookUpEditSegments = new DevExpress.XtraEditors.LookUpEdit();
@@ -47,7 +46,7 @@
             // 
             // lblIndicate
             // 
-            this.lblIndicate.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl1.Appearance.Font")));
+            this.lblIndicate.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("lblIndicate.Appearance.Font")));
             this.lblIndicate.Appearance.Options.UseFont = true;
             resources.ApplyResources(this.lblIndicate, "lblIndicate");
             this.lblIndicate.Name = "lblIndicate";
@@ -64,8 +63,8 @@
             resources.ApplyResources(this.lookUpEditSegments, "lookUpEditSegments");
             this.lookUpEditSegments.Name = "lookUpEditSegments";
             this.lookUpEditSegments.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(((DevExpress.XtraEditors.Controls.ButtonPredefines)(resources.GetObject("lookUpEdit1.Properties.Buttons"))))});
-            this.lookUpEditSegments.Properties.NullText = resources.GetString("lookUpEdit1.Properties.NullText");
+            new DevExpress.XtraEditors.Controls.EditorButton(((DevExpress.XtraEditors.Controls.ButtonPredefines)(resources.GetObject("lookUpEditSegments.Properties.Buttons"))))});
+            this.lookUpEditSegments.Properties.NullText = resources.GetString("lookUpEditSegments.Properties.NullText");
             // 
             // labelControl3
             // 
@@ -107,10 +106,6 @@
             resources.ApplyResources(this.hyLblRegister, "hyLblRegister");
             this.hyLblRegister.Name = "hyLblRegister";
             this.hyLblRegister.Click += new System.EventHandler(this.hyLblRegister_Click);
-            // 
-            // splashScreenManager1
-            // 
-            splashScreenManager1.ClosingDelay = 3000;
             // 
             // LoginForm
             // 

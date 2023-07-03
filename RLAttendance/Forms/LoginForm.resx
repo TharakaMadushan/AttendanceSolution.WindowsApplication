@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="labelControl1.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lblIndicate.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Tahoma, 17pt, style=Bold</value>
   </data>
   <data name="lblIndicate.Location" type="System.Drawing.Point, System.Drawing">
@@ -177,10 +177,10 @@
     <value>130, 110</value>
   </data>
   <assembly alias="DevExpress.Utils.v21.2" name="DevExpress.Utils.v21.2, Version=21.2.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-  <data name="lookUpEdit1.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+  <data name="lookUpEditSegments.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
     <value>Combo</value>
   </data>
-  <data name="lookUpEdit1.Properties.NullText" xml:space="preserve">
+  <data name="lookUpEditSegments.Properties.NullText" xml:space="preserve">
     <value>Please Select your Segment</value>
   </data>
   <data name="lookUpEditSegments.Size" type="System.Drawing.Size, System.Drawing">
@@ -387,12 +387,6 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>LoginForm</value>
-  </data>
-  <data name="&gt;&gt;splashScreenManager1.Name" xml:space="preserve">
-    <value>splashScreenManager1</value>
-  </data>
-  <data name="&gt;&gt;splashScreenManager1.Type" xml:space="preserve">
-    <value>DevExpress.XtraSplashScreen.SplashScreenManager, DevExpress.XtraEditors.v21.2, Version=21.2.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>LoginForm</value>
