@@ -1,4 +1,6 @@
-﻿using System;
+﻿using HRMS.BusinessLayer;
+using HRMS.DataLayer;
+using System;
 using System.Configuration;
 using System.Drawing;
 using System.IO;
@@ -38,6 +40,7 @@ namespace AttendanceSolution.Forms
                 if (Connect())
                 {
                     lblIndicate.Appearance.ForeColor = Color.Green;
+                    LoadLookupEdits();
                 }
                 else
                 {
@@ -48,6 +51,13 @@ namespace AttendanceSolution.Forms
             {
                 MessageBox.Show(ex.ToString());
             }
+        }
+
+        public void LoadLookupEdits()
+        {
+            OrganizationScheme _oraganization = new OrganizationScheme();
+            CommonFunctions.LoadLookupControls(lookUpEditSegments, _oraganization);
+
         }
 
         public bool Connect()
